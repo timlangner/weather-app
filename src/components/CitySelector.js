@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Row, Col, FormControl, Button} from 'react-bootstrap';
-import {API_KEY, BASE_URL} from '../apis/config';
 
 const CitySelector = ({ onSearch }) => {
     const [city, setCity] = useState('');
